@@ -5,6 +5,7 @@ import {BiCodeAlt} from "react-icons/bi"
 import { motion } from "framer-motion";
 
 
+
 const Services = () => {
 
    const fade = {
@@ -26,17 +27,17 @@ const Services = () => {
                     <div className="services-card">
                         <BiCodeAlt className='services-icon' />
                         <p className='services-title'>Web Development</p>
-                        <p className='services-desc'>I use various web technologies to develop attractive,creative, interactive, responsive and functional website layouts. </p>
+                        <p className='services-desc'>I create responsive, interactive, and visually appealing websites using modern web technologies.</p>
                     </div>
                     <div className="services-card">
                         <IoColorWandOutline className='services-icon' />
                         <p className='services-title'>UI Design</p>
-                        <p className='services-desc'>I work with certain design tools to create high-fidelity designs and prototypes. I design accessible and usable products which aid business growth.</p>
+                        <p className='services-desc'>I create visually appealing, user-centric, and accessible designs that drive engagement and business success.</p>
                     </div>
                     <div className="services-card">
                         <BiCodeAlt  className='services-icon' />
                         <p className='services-title'>Front end development</p>
-                        <p className='services-desc'>I work with certain design tools to create high-fidelity designs and prototypes. I design accessible and usable products which aid business growth.</p>
+                        <p className='services-desc'>I craft engaging and intuitive user interfaces, ensuring seamless navigation and responsiveness across all devices.</p>
                     </div>
                 </motion.div>
               </div>

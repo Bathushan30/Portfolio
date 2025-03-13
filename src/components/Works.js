@@ -1,11 +1,13 @@
 import React, { useState } from "react";
 import "../styles/Works.css";
 import { motion } from "framer-motion";
-import { ReactData, ReactNativeData, VueData } from "../data/WorkData";
+import { ReactData} from "../data/WorkData";
+//import { ReactNativeData} from "../data/WorkData";
+//import { VueData } from "../data/WorkData";
 import WorkCard from "./WorkCard";
 
 const Works = () => {
-	const [activeTab, setActiveTab] = useState("react");
+	const [activeTab, setActiveTab] = useState("projects");
 
 	const fade = {
 		opacity: 1,
@@ -15,7 +17,7 @@ const Works = () => {
 	};
 
 	const tabData = [
-		{ id: "react", label: "React", data: ReactData },
+		{ id: "projects", label: "Projects", data: ReactData },// can use for further projects with vue data and react native data
 		
 		
 	];

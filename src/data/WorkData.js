@@ -7,28 +7,22 @@ export const ReactData = [
 			"APIs",
 			"Firebase",
 		],
-		gitlink: "",
+		gitlink: "https://github.com/Bathushan30",
 		site: "https://petjournal.cloudmaebill.click/",
 	},
 	{
 		title: "Module Progress Calculator",
 		desc: "Built a Python program to predict student progression using data analysis.",
 		tech: ["Python"],
-		gitlink: "",
+		gitlink: "https://github.com/Bathushan30",
 		site: "",
 	},
 	{
 		title: "Real-Time Event Ticketing System ",
 		desc: "A system for real-time, synchronized ticket booking.",
 		tech: ["Java"],
-		gitlink: "",
+		gitlink: "https://github.com/Bathushan30",
 		site: "",
 	},
 	
-
 ];
-
-
-
-
-

@@ -13,10 +13,10 @@ function App() {
 
   const loadText = {
     hidden: {
-      opacity: 0,
+      opacity: 1,
     },
     visible: {
-      opacity: 1,
+      opacity: 2,
       transition:{
         duration: 1
       }
@@ -28,10 +28,10 @@ function App() {
     loading ? 
     <div className="loader">
       <div className="svg-wrapper">
-        <svg height="60" width="320" xmlns="http://www.w3.org/2000/svg">
-          <rect className="shape" height="60" width="200" />
+        <svg height="60" width="340" xmlns="http://www.w3.org/2000/svg">
+          <rect className="shape" height="60" width="340" />
         </svg>        
-        <motion.p variants={loadText} initial='hidden' animate='visible' className="text">Bathushan</motion.p>
+        <motion.p variants={loadText} initial='hidden' animate='visible' className="text">Ariyadas Bathushan</motion.p>
       </div>
     </div>
     :
